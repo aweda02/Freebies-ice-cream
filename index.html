@@ -1,86 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_right_alt" />
-  
- <title>FREEBIES ICECREAM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
 </head>
 <body>
+    <header>
+<!--      -->
+        <div class="first">
+        <nav>
+            <img src="imgs/logo.png" alt="">
+            <ul>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">Product</a> </li>
+                <li> <a href="">Our Path</a> </li>
+                <li> <a href="">About</a> </li>
+                <li> <a href="">Contact</a> </li>
+            </ul>
+        </nav>
+        <!-- icons -->
+        <img class="burger" src="https://cdn-icons-png.flaticon.com/128/7216/7216128.png" alt="">
+        <img class="back" src="https://cdn-icons-png.flaticon.com/128/9684/9684650.png" alt="">
+        </div>
 
- <!-- header -->
- <header>
-<div class="nav-bar">
- <div class="nav-center">
-  <div class="nav-right">
-  <div class="nav-logo">
-   <a href="index.html"><img class="logo" src="./Copilot_20250710_232152.png" alt="logo"  ></a>
-   <div class="toggle-btn">
- <img class="open-toggle" src="./dehaze_20dp_FF69B4_FILL0_wght400_GRAD0_opsz20.svg" alt="">
- <img class="close-toggle" src="./close_20dp_FF69B4_FILL0_wght400_GRAD0_opsz20.svg" alt="">
-  </div>
-  </div>
-  <div class="nav-links">
-   <a href="" class="link">Home</a>
-   <a href="" class="link">Product</a>
-   <a href="" class="link">Our History</a>
-   <a href="" class="link">About</a>
-   <a href="" class="link">Contact</a>
-  </div>
- </div>
-  <div class="branch-container">
-   <button class="branch btn">Our Branches<span class="material-symbols-outlined">
-    arrow_right_alt
-    </span></button>
-  </div>
- </div>
+        <div class="second">
+            <a href="" class="btn"><span>Our Branches</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="white" stroke-width="2"stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg></a>
+        </div>
+    </header>
+<!-- end of t header -->
+
+    <main  >
+
+    <!-- first section -->
+        <section>
+            <div class="container">
+                <div>
+
+                    <div class="content">
+                     <h1>DELICIOUS <br> HAND CRAFTED ICECREAM WITH</h1>
+                    <p>LOVE & JOY</p>
+                    <a class="btn-2" href=""><span>Product</span></a>
+                    <a class="btn-3" href=""><span>How it's made</span></a>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="p-1"> <span>150</span> KCal</p>
+                    <p class="p-2"> <span>20 %</span> <br> Calcium</p>
+                    <img src="imgs/twoWomen_no_background.png" alt="">
+                    <div class="crcl"></div>
+                </div>
+
+                <img class="ice-Cream" src="imgs/ice cream.webp" alt="ice cream image">
+            </div>
+        </section>
+
+        <!-- section -->
+         <section id="product"></section>
+
+
+
+         <!-- conctact -->
+<section id="contact">
+    <div class="contact-container">
+        <div class="contact-header">
+            <h2>CONTACT US</h2>
+            <p>Reach out to us anytime and we'll be happy to answer your questions</p>
+        </div>
+        <form action="" method="post">
+
+            <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" required>
+        </div>
+        
+        <div class="form-group form-sp-group">
+            <label for="number">Phone:</label>
+            <input type="number" required name="number" >
+            <label for="email">Email:</label>
+            <input type="email" required name="email">
+        </div>
+
+        <div class="form-group">
+            <label for="text">Message:</label>
+            <input type="text" required name="text" >
+        </div>
+<div class="form-group">
+    <button type="submit" class="contact-btn">SUBMIT NOW</button>
 </div>
-</header>
-<!-- end of header -->
+        </form>
+        <img class="contact-ice-img"  src="https://png.pngtree.com/png-vector/20240223/ourmid/pngtree-women-licking-ice-cream-ice-cream-joyful-professionalprofessional-png-image_11763993.png" alt="">
+    </div>
+</section>
 
-<!-- main -->
-<main>
- <div class="hero-container">
-  <div class="overlay"></div>
-<article>
- <div class="hero-text">
-  <h2>DELICIOUS <br> HAND CRAFTED <br>ICECREAM WITH</h2>
-  <h1> LOVE & JOY</h1>
-  <div class="hero-text-btn">
-   <button class="btn hero-btn1">Product 
-    <span class="material-symbols-outlined">
-    arrow_right_alt
-    </span>
-    </button>
-   <button class="btn hero-btn2">How it's made
-     <span class="material-symbols-outlined">
-    arrow_right_alt
-    </span>
-   </button>
-  </div>
- </div>
- <div class="hero-img">
-  <ul>
-   <li>150 <span>KCal <br> calories</span></li>
-  <li>20 <span>% <br> Calcium</span></li>
- </ul>
-  <img src="persomicecrem (2).png" alt="">
- </div>
- <img src="ice cream.webp" alt="" class="ice-crem-img">
-<img src="persomicecrem (2).png" alt="" class="persomicecrem">
-<div class="branch-container2">
-  <button class="branch2 btn">Our Branches<span class="material-symbols-outlined">
-      arrow_right_alt
-    </span></button>
-</div>
-</article>
- </div>
-</main>
-<!-- end of main -->
+          <!-- end of contact -->
+           <section id="testimonial">
+            <div class="testimonial-container">
+            <div class="testimonuals-header">
+                <h1>TESTIMONIALS</h1>
+            </div>
+            <div class="swiper"> 
+                <div class="card-swipper-wrapper">
+            <div class="testimonial-card-container swiper-wrapper">
+                <!-- single card -->
+                <div class="card-wrapper swiper-slide ">
+                    <div class="testimonial-card">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis officiis quia exercitationem minus </p>
+                        <div class="ts-boder"></div>
+                        <div class="ts-img">
+                            <img src="Copilot_20250715_214903.png" alt="">
+                            <div class="ts-img-name">
+                                <h4>Haifa H.</h4>
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single card -->
+                <!-- single card -->
+                <div class="card-wrapper swiper-slide">
+                    <div class="testimonial-card">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis officiis quia exercitationem minus </p>
+                        <div class="ts-boder"></div>
+                        <div class="ts-img">
+                            <img src="Copilot_20250715_214903.png" alt="">
+                            <div class="ts-img-name">
+                                <h4>Saad S.</h4>
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single card -->
+                <!-- single card -->
+                <div class="card-wrapper swiper-slide">
+                    <div class="testimonial-card">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis officiis quia exercitationem minus </p>
+                        <div class="ts-boder"></div>
+                        <div class="ts-img">
+                            <img src="Copilot_20250715_214903.png" alt="">
+                            <div class="ts-img-name">
+                                <h4>Abdullah A.</h4>
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single card -->
+                <!-- single card -->
+                <div class="card-wrapper swiper-slide">
+                    <div class="testimonial-card">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis officiis quia exercitationem minus </p>
+                        <div class="ts-boder"></div>
+                        <div class="ts-img">
+                            <img src="Copilot_20250715_214903.png" alt="">
+                            <div class="ts-img-name">
+                                <h4>Haifa H.</h4>
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single card -->
+                <!-- single card -->
+                <div class="card-wrapper swiper-slide">
+                    <div class="testimonial-card">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis officiis quia exercitationem minus </p>
+                        <div class="ts-boder"></div>
+                        <div class="ts-img">
+                            <img src="Copilot_20250715_214903.png" alt="">
+                            <div class="ts-img-name">
+                                <h4>Saad S.</h4>
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                                <img src="https://th.bing.com/th/id/R.4e148a3c4e20264bb23f12532dcaf5c3?rik=kUsxQNqwCY9KnQ&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fstar-icon-transparent-background%2fstar-icon-transparent-background-4.png&ehk=qWe235iJIdKqzyN%2bAi8mKXwkbKGE8wTR9U0qjda07L0%3d&risl=&pid=ImgRaw&r=0"
+                                    alt="star icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of single card -->
 
-<script src="index.js"></script>
+
+            </div>
+        </div>
+            <div class="swiper-pagination"></div>
+ 
+             <div class="see-more ">
+                <button class="more-btn swiper-button-next ">See More</button>
+            </div>
+            </div>
+            
+        </div>
+           </section>
+          <!-- Testimonials -->
+
+
+          <!-- End Of  Testimonials -->
+    </main>
+
+
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+            <div class="col1">
+                <div class="footer-logo-wrapper">
+                <h1>**FREEBIES**</h1>
+                <h4>&copy Freebies Sweet & Spice</h4>
+            </div>
+                <div class="newsteller">
+                    <h3> <img src="https://cdn-icons-png.flaticon.com/128/873/873360.png" alt="mail icon">SUSCRIBE TO OUR NEWSTELLER</h3>
+                    <div class="input-container">
+                        <input type="text" placeholder="enter your mail">
+                        <button class="footer-btn  ">SUSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <h3>LOCATION</h3>
+                <P>freebiessss@gmail.com</P>
+                <P>0968568588</P>
+            </div>
+            <div class="col3">
+                <h3>LEGAL</h3>
+                <a href=""><p>Privacy Policy</p></a>
+                <a href=""><p>Terms of Condition</p></a>
+                <a href=""><p>Returns</p></a>
+            </div>
+            <div class="col4">
+                <h3>lINKS</h3>
+                <a href=""><p>About us</p></a>
+                <a href=""><p>Products</p></a>
+                <a href=""><p>News</p></a>
+            </div> 
+            <div class="col5">
+                <h3>Shop</h3>
+                <a href=""><p>Vanila Chai</p></a>
+                <a href=""><p>Honey Nut</p></a>
+                <a href=""><p>Sweet Caramel</p></a>
+            </div> 
+        </div>
+        <div class="footer-followon-container">
+            <div class="follow"><h3>Follow Us ON: <a href=""><img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="logo" title="github"></a> <a href=""><img src="https://cdn-icons-png.flaticon.com/128/14715/14715341.png" alt="logo" title="linkdin"></a></h3></div>
+            <div class="-find-store"><h3> <a href= "https://maps.app.goo.gl/KzrWsx38C4meS2Hv7"><img src="https://cdn-icons-png.flaticon.com/128/12536/12536081.png " alt="location icon" title="location"></a>FIND STORE</h3></div>
+        </div>
+        </div>
+    </footer>
+    
+
+    <!-- end of footer -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+
 </body>
 </html>
